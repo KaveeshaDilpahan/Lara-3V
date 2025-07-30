@@ -7,10 +7,10 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "LEwnwJJR#GiZ28KylDujqBVBcNLsav-7Fvn-vhmiyFHtsnTZBI_s", // Add your session id
 PREFIX: process.env.PREFIX || ".",
-MODE: process.env.MODE || "inbox",  //public | private | inbox | group
+MODE: process.env.MODE || "public",  //public | private | inbox | group
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94763841211",
 DEV: process.env.DEV || "94763841211",
-LANG: process.env.LANG || "EN", // EN | SI
+LANG: process.env.LANG || "SI", // EN | SI
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
